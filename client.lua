@@ -58,7 +58,7 @@ RegisterCommand('modo300', function(source, args, rawCommand)
     if Config.alertas == 'default' or Config.alertas == "esx" or Config.alertas == "" or Config.alertas == nil then	 
      ESX.ShowNotification('Já Ativaste Modo 300 Recentemente. Aguarde '..Config.aguardar..' minuto(s), ou ocorreu um erro !')
 	end 
-    if Config.alertas == 'mythic' then  
+    if Config.alertas == 'mythic' or Config.alertas == 'mythic-notify' then  
 		 exports['mythic_notify']:SendAlert('error', 'Já Ativaste Modo 300 Recentemente. Aguarde '..Config.aguardar..' minuto(s), ou ocorreu um erro !', 3500) -- Caso Uses Mythic Notify. ( Usado no Video )
 	end	 
     if Config.alertas == 'okoknotify' or Config.alertas == 'okok' then
