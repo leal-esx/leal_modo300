@@ -24,7 +24,7 @@ RegisterCommand('modo300', function(source, args, rawCommand)
 		local jogador = GetPlayerPed(-1)
 		local carro = GetVehiclePedIsIn(jogador, false)
 		if carro ~= nil then 
-		SetVehicleMaxSpeed(carro, 75.5)
+		SetVehicleMaxSpeed(carro, 83.3)
 		if Config.LegacyFuel == true then
 		exports["LegacyFuel"]:SetFuel(carro, 100)
 		else
