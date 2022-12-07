@@ -37,7 +37,7 @@ RegisterCommand('modo300', function(source, args, rawCommand)
 		exports['mythic_notify']:SendAlert('inform', 'Modo 300 Ativado', 3500) -- Caso Uses Mythic Notify.
 		end
 		if Config.alertas == 'okoknotify' or Config.alertas == 'okok' then
-	    exports['okokNotify']:Alert('Modo 300', 'O Modo foi Ativado !', 3500, 'success') -- Caso uses OkOkNotify.
+	        exports['okokNotify']:Alert('Modo 300', 'O Modo foi Ativado !', 3500, 'success') -- Caso uses OkOkNotify.
 		end
 		ativadom = true
 		Citizen.Wait(Config.aguardar*60000) --Aguarde x Minutos para ativar o modo 300 novamente.
