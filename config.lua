@@ -2,7 +2,7 @@ Config = {}
 
 Config.LegacyFuel = true  -- Se usas Script LegacyFuel coloca true , caso contrário coloca false e terás que adaptar ao teu script de fuel.
 
-Config.trabalhos = { -- Trbalhos com permisão para ativar o modo 300
+Config.trabalhos = { -- Trabalhos com permisão para ativar o modo 300
     {"police"},
     {"sheriff"},
     {"gnr"} 
