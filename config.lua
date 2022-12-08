@@ -8,7 +8,7 @@ Config.trabalhos = { -- Trabalhos com permisão para ativar o modo 300
     {"gnr"} 
 }
 
-Config.aguardar = 10 -- Tempo de cooldown que se pode voltar a ativar o modo 300 (em minutos)/ Minimo 1 Minuto.
+Config.aguardar = 2 -- Tempo de cooldown que se pode voltar a ativar o modo 300 (em minutos)/ Minimo 1 Minuto.
 
 Config.alertas = "okok" -- Tipo de notificações . Usa: "mythic" ou "mythic-notify" caso usas os alertas "mythic-notify". 
                        -- Usa "okoknotify" ou "okok" caso usas os alertas "OkOk-Notify". 
